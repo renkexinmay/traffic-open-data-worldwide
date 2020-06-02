@@ -1,12 +1,15 @@
-# traffic-open-data-worldwide
-A summary of worldwide open source for traffic data (traffic volume, bike count, etc.)
+# traffic-open-data-worldwide-after-Covid19
+A summary of worldwide open source for traffic data (traffic volume, bike count, etc.) for studying the effects of Covid-19 on traffic on global cities.
 (Last check was in May 2020)
 
 ### Summary
 Overall, 
-- Paris and Nantes have best data - complete (bike + veh), usable (not realtime API) and updated (after confinement) data. 
-- Lille, Rennes and Bordeaux (not in our list)'s data is partially available.
-- Montpellier, Stockholm, Amsterdam, and Grenoble's data is not very usable/available.
+- Paris/Nantes/Geneva/Madrid/Barcelona provide good traffic volume data,
+- Zurich/NewYork provide good bike count data
+- Lille, Rennes and Bordeaux (not in our list)'s data is partially available
+- Montpellier, Stockholm, Amsterdam, and Grenoble's data is not very usable/available
+- Bruseels/Turin/Helsinki provide real-time API
+
 
 ### French cities
 
@@ -47,6 +50,7 @@ realtime, [link](https://opendata.bordeaux-metropole.fr/explore/dataset/ci_trafi
 
 ##### Toulouse, Lyon, Marseile, Nice (beyond list) don't have good data to use.
 
+
 ### European cities outside France
 
 ##### Stockholm
@@ -59,6 +63,114 @@ the date is not clear on the site (2014-2015/realtime), [link](https://dataporta
 - bike count
 data not found
 - vehicle count
-realtime, no historical data, link
-national wide data link
+realtime, no historical data, [link](https://data.amsterdam.nl/datasets/KDrDITPUOgY4wQ/realtime-verkeersdata/)
+national wide data [link](https://data.amsterdam.nl/datasets/Z7Su0BmdAs5kiw/actuele-verkeersgegevens-nationaal/)
+
+
+##### Zurich
+- Car:
+March 2020
+https://data.stadt-zuerich.ch/dataset/sid_dav_verkehrszaehlung_miv_od2031/resource/44607195-a2ad-4f9b-b6f1-d26c003d85a2
+- Bike
+May 2020
+https://data.stadt-zuerich.ch/dataset/ted_taz_verkehrszaehlungen_werte_fussgaenger_velo/resource/b9308f85-9066-4f5b-8eab-344c790a6982
+
+
+##### Madrid
+- Car
+Until march 2020
+https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=33cb30c367e78410VgnVCM1000000b205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default
+
+April 2020
+https://datos.madrid.es/sites/v/index.jsp?vgnextoid=e51f1016356a1710VgnVCM1000001d4a900aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD
+- Realtime data
+https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=02f2c23866b93410VgnVCM1000000b205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD
+
+
+##### Geneva
+- Car
+March 2020
+https://opendata.swiss/en/dataset/__334
+
+
+##### Barcelona
+- Traffic state
+Until 04/2020
+https://opendata-ajuntament.barcelona.cat/data/en/dataset/trams/resource/79900963-aa0c-4894-8ad1-512556d02f86
+
+##### Sydney
+Bike:
+Only march 2020 (oct & march every year)
+https://data.cityofsydney.nsw.gov.au/datasets/bicycle-count-surveys/data?orderBy=Year&orderByAsc=false&where=Month%20%3D%20%27March%27
+
+
+##### Berlin: not found
+
+
+##### New York
+- Car
+Until 2018
+https://data.cityofnewyork.us/browse?q=traffic%20volume&sortBy=relevance
+- Bike
+Until April 2020
+https://data.cityofnewyork.us/Transportation/Bicycle-Counts/uczf-rk3c
+
+
+##### Helsinki :
+- Car
+Until 2019
+https://hri.fi/data/en_GB/dataset/liikennemaarat-helsingissa
+- Realtime API (last two week data)
+https://it102.infotripla.fi/ItSensorServiceApi/swagger/#!/Query32methods/getCalculatedDataResults
+
+
+##### Vienna:
+- Car
+Until 2017
+https://www.data.gv.at/katalog/dataset/stadt-wien_verkehrszhlstellenzhlwertewien/resource/d01eb67e-9aaa-4faa-89f7-a9d3fe542546?view_id=9dfc83e9-af36-4d1c-9c03-051c133427b1
+- Bike
+Until 2019
+https://www.data.gv.at/katalog/dataset/stadt-wien_radverkehrszhlungenderstadtwien/resource/c2d89b4e-8193-4615-b477-67a68c488af3
+
+##### Brussels:
+- Car
+Realtime data
+https://data-mobility.brussels/traffic/api/counts/?_ga=2.226469658.1222841108.1588840521-1802655316.1588840521
+- Bike
+Realtime data
+http://opendatastore.brussels/dataset/bike-counting-poles
+
+
+##### Munich
+Not found
+
+##### Milano
+Not found
+
+##### Rome
+Not found
+
+##### Vancouver
+Not found
+
+##### Tokyo
+Not found
+
+##### London
+not found
+
+##### Turin
+- Car
+Realtime
+http://aperto.comune.torino.it/dataset/flussi-di-traffico/resource/5303bd58-29d0-404c-9d76-f9899f658a72?view_id=e6be6b8a-c75a-4b6a-b652-5ff333808651
+
+##### Copenhagen
+- Bike
+2014
+https://www.opendata.dk/city-of-vejle/cykelbarometer-antal-fordelt-pa-klokkeslet
+
+##### Shenzhen
+- Car
+Until 2017
+https://opendata.sz.gov.cn/data/dataSet/toDataDetails/29200_02803199
 
