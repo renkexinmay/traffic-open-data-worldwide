@@ -1,5 +1,4 @@
-# summary of traffic open data worldwide after Covid19
-# 全球交通开源数据
+# summary of traffic open data worldwide after Covid19 全球交通开源数据
 A summary of worldwide open source for traffic data (traffic volume, bike count, etc.) for studying the effects of Covid-19 on traffic on global cities.
 (Last check was in May 2020)
 
